@@ -7,8 +7,8 @@ function Header({ subName }) {
     item.classList.remove("on");
     if (item.getAttribute("href") === subName) item.classList.add("on");
     else if (
-      item.getAttribute("href") === "/Shop" &&
-      subName.indexOf("/Detail/") === 0
+      item.getAttribute("href") === "/test3/Shop" &&
+      subName.indexOf("/test3/Detail/") === 0
     ) {
       item.classList.add("on");
     }
